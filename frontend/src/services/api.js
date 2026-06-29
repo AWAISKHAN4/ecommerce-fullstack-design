@@ -5,7 +5,7 @@ import axios from 'axios';
  * Base URL reads from Vite environment variable or defaults to localhost
  */
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000/api',
+  baseURL: import.meta.env.VITE_API_URL || 'https://ecommerce-fullstack-design-i0fp.onrender.com',
   timeout: 10000,
 });
 
